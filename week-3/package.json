@@ -1,0 +1,16 @@
+{
+  "name": "week3-product-api",
+  "version": "1.0.0",
+  "description": "Product REST API for week3 assignment",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "mongoose": "^9.2.4",
+    "cookie-parser": "^1.4.6",
+    "nodemon": "^3.1.14"
+  }
+}
