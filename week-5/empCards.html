@@ -1,1 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins';
+        }
+        body
+        {
+            height: 300vh;
+            background-image: url("https://cdn.pixabay.com/photo/2016/11/29/03/53/background-1868729_1280.jpg");
+        }
+        .nav
+        {
+            position: sticky;
+            top:0px;
+            box-shadow: 0px -1px 10px gray;
+        }
+        ul
+        {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            padding: 10px;
+            background-color: rgba(250, 235, 215, 0.441);
+        }
+        li
+        {
+            list-style: none;
+        }
+        body
+        {
+            background-size: cover;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+        }
+        a:hover
+        {
+            color: rgb(90, 76, 1);
+            transform: scale(1.1);
+        }
+        .parent
+        {
+            display: flex;
+            justify-content: space-around;
+            /* align-items: center; */
+            margin: 100px;
+        }
+        .emp-card
+        {
+            width: 270px;
+            height: 450px;
+            border-radius: 20px;
+            background-color: rgba(94, 93, 93, 0.58);
+            box-shadow: 1px 1px 30px rgba(0, 0, 0, 0.452);
+            text-align: center;
+        }
+        .emp-card:hover
+        {
+            background-color: rgba(40, 40, 40, 0.783);
+            transform: scale(1.05);
+            color: white;
+        }
+        img
+        {
+            width: 40%;
+            border-radius: 50%;
+            box-shadow: -1px 1px 10px gray;
+            margin: 30px 0px;
+        }
+        p{
+            margin: 20px 0px;
+        }
+        button{
+            margin: 10px 20px;
+            padding: 10px;
+            border-radius: 10px;
+            border: none;
+            background-color: rgba(255, 255, 255, 0.566);
+        }
+        button:hover{
+            color: gray;
+        }
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Contact</a></li>
+            <li><a href="">Help</a></li>
+            <li><a href="">Settings</a></li>
+        </ul>
+    </div>
+    <div class="parent">
+    <div class="emp-card">
+        <img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png" alt="profile pic">
+        <h2 class="name">Lorem, ipsum.</h2>
+        <p class="info">Lorem ipsum dolor sit amet </p>
+        <button class="btn1">Show profile</button>
+        <button class="btn2">Contact</button>
+    </div>
+    <div class="emp-card">
+        <img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png" alt="profile pic">
+        <h2 class="name">Lorem, ipsum.</h2>
+        <p class="info">Lorem ipsum dolor sit amet </p>
+        <button class="btn1">Show profile</button>
+        <button class="btn2">Contact</button>
+    </div>
+    <div class="emp-card">
+        <img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png" alt="profile pic">
+        <h2 class="name">Lorem, ipsum.</h2>
+        <p class="info">Lorem ipsum dolor sit amet </p>
+        <button class="btn1">Show profile</button>
+        <button class="btn2">Contact</button>
+    </div>
+    </div>
+</body>
+</html>
